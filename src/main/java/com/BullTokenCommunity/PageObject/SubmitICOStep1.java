@@ -35,6 +35,24 @@ public class SubmitICOStep1 extends TestBase{
 	@FindBy(id="country_of_issue")
 	WebElement CountryDropdown;
 	
+	@FindBy(id="1")
+	WebElement StageOfDevelopmentIdeaRadioButton;
+	
+	@FindBy(id="2")
+	WebElement StageOfDevelopmentWireframeRadioButton;
+	
+	@FindBy(id="3")
+	WebElement StageOfDevelopmentPOCRadioButton;
+	
+	@FindBy(id="4")
+	WebElement StageOfDevelopmentInitialTestingRadioButton;
+	
+	@FindBy(id="5")
+	WebElement StageOfDevelopmentRealLifeRadioButton;
+	
+	@FindBy(id="6")
+	WebElement StageOfDevelopmentSellableProductRadioButton;
+	
 	@FindBy(id="description")
 	WebElement DescriptionTextArea;
 	
@@ -55,6 +73,15 @@ public class SubmitICOStep1 extends TestBase{
 	
 	@FindBy(id="linkedin_link")
 	WebElement LinkdinTextBox;
+	
+	@FindBy(id="contact_mail")
+	WebElement ContactEmailTextBox;
+	
+	@FindBy(id="contact_number")
+	WebElement ContactNumberTextBox;
+	
+	@FindBy(id="contact_info")
+	WebElement ContactAddressTextBox;
 	
 	@FindBy(xpath="//small[@class='text-danger' and contains(text(),'Please enter ICO Name')]")
 	WebElement ICONameValidationMessage;
@@ -198,12 +225,13 @@ public class SubmitICOStep1 extends TestBase{
 		ICOURLTextBox.sendKeys(data.ICOURL);
 		waitForElement(driver, 10, IcoCategoryDropdown);
 		Select ICOCateg=new Select(IcoCategoryDropdown);
-		waitForElement(driver, 10, IcoCategoryDropdown);
+		waitForElement(driver, 30, IcoCategoryDropdown);
 		ICOCateg.selectByVisibleText(data.ICOcategory);
-		waitForElement(driver, 10, IcoCategoryDropdown);
+		waitForElement(driver, 30, CountryDropdown);
 		Select Country=new Select(CountryDropdown);
-		waitForElement(driver, 10, IcoCategoryDropdown);
+		waitForElement(driver, 30, CountryDropdown);
 		Country.selectByVisibleText(data.ICOCountry);
+		StageOfDevelopmentInitialTestingRadioButton.click();
 		DescriptionTextArea.sendKeys(data.IcoDeescription);
 		CompanyNameTextBox.sendKeys(data.CompanyName);
 		LightPaperTextBox.sendKeys(data.LightpaperLink);
@@ -211,6 +239,9 @@ public class SubmitICOStep1 extends TestBase{
 		FacebookTextbox.sendKeys(data.FacebookUrl);
 		LinkdinTextBox.sendKeys(data.LinkdinUrl);
 		GithubLink.sendKeys(data.GithubUrl);
+		ContactEmailTextBox.sendKeys(data.ContactEmail);
+		ContactNumberTextBox.sendKeys(data.ContactMobile);
+		ContactAddressTextBox.sendKeys(data.ContactAddress);
 		
 	}
 	public String GetICONameValidationMessage()

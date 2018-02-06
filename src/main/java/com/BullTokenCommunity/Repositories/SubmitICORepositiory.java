@@ -32,6 +32,9 @@ public class SubmitICORepositiory {
 		ICOData.FacebookUrl=elib.getExcelData(sheetName, 1, 9);
 		ICOData.LinkdinUrl=elib.getExcelData(sheetName, 1, 10);
 		ICOData.GithubUrl=elib.getExcelData(sheetName, 1, 11);
+		ICOData.ContactEmail=elib.getExcelData(sheetName, 1, 12);
+		ICOData.ContactMobile=elib.getExcelData(sheetName, 1, 13);
+		ICOData.ContactAddress=elib.getExcelData(sheetName, 1, 14);
 		return ICOData;
 	}
 

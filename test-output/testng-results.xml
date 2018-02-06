@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="37690" started-at="2018-02-01T09:22:21Z" finished-at="2018-02-01T09:22:59Z">
+  <suite name="TestSuite" duration-ms="81685" started-at="2018-02-06T09:03:07Z" finished-at="2018-02-06T09:04:29Z">
     <groups>
     </groups>
-    <test name="BullTokenCommunityTests" duration-ms="37690" started-at="2018-02-01T09:22:21Z" finished-at="2018-02-01T09:22:59Z">
+    <test name="BullTokenCommunityTests" duration-ms="81685" started-at="2018-02-06T09:03:07Z" finished-at="2018-02-06T09:04:29Z">
       <class name="com.BullToken.TestClasses.ICOSubmissionTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-01T14:52:51Z" finished-at="2018-02-01T14:52:51Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestEmptyFieldValidation()[pri:1, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="TestEmptyFieldValidation" duration-ms="3027" started-at="2018-02-01T14:52:51Z" finished-at="2018-02-01T14:52:54Z">
+        <test-method status="PASS" signature="TestEmptyFieldValidation()[pri:1, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="TestEmptyFieldValidation" duration-ms="4037" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestEmptyFieldValidation -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-01T14:52:54Z" finished-at="2018-02-01T14:52:54Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:24Z" finished-at="2018-02-06T14:34:24Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-01T14:52:54Z" finished-at="2018-02-01T14:52:54Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:24Z" finished-at="2018-02-06T14:34:24Z">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SumbitBasicICODetailTest()[pri:2, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="SumbitBasicICODetailTest" duration-ms="4509" started-at="2018-02-01T14:52:54Z" finished-at="2018-02-01T14:52:59Z">
+        <test-method status="PASS" signature="SumbitBasicICODetailTest()[pri:2, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="SumbitBasicICODetailTest" duration-ms="5013" started-at="2018-02-06T14:34:24Z" finished-at="2018-02-06T14:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SumbitBasicICODetailTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-01T14:52:59Z" finished-at="2018-02-01T14:52:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.ICOSubmissionTest@63440df3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:29Z" finished-at="2018-02-06T14:34:29Z">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.BullToken.TestClasses.ICOSubmissionTest -->
       <class name="com.BullToken.TestClasses.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="setUp" is-config="true" duration-ms="25728" started-at="2018-02-01T14:52:21Z" finished-at="2018-02-01T14:52:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="setUp" is-config="true" duration-ms="66591" started-at="2018-02-06T14:33:07Z" finished-at="2018-02-06T14:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="beforeMethod" is-config="true" duration-ms="27" started-at="2018-02-01T14:52:47Z" finished-at="2018-02-01T14:52:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2018-02-06T14:34:13Z" finished-at="2018-02-06T14:34:13Z">
           <params>
             <param index="0">
               <value>
@@ -76,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidUserCredentials()[pri:1, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="verifyLoginWithInvalidUserCredentials" duration-ms="3553" started-at="2018-02-01T14:52:47Z" finished-at="2018-02-01T14:52:50Z">
+        <test-method status="PASS" signature="verifyLoginWithInvalidUserCredentials()[pri:1, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="verifyLoginWithInvalidUserCredentials" duration-ms="5302" started-at="2018-02-06T14:34:13Z" finished-at="2018-02-06T14:34:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidUserCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-01T14:52:50Z" finished-at="2018-02-01T14:52:50Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -91,11 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="verifyLoginWithvalidCredentials()[pri:3, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="verifyLoginWithvalidCredentials" duration-ms="810" started-at="2018-02-01T14:52:50Z" finished-at="2018-02-01T14:52:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithvalidCredentials -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-01T14:52:50Z" finished-at="2018-02-01T14:52:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -106,7 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-01T14:52:51Z" finished-at="2018-02-01T14:52:51Z">
+        <test-method status="PASS" signature="verifyLoginWithvalidCredentials()[pri:3, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="verifyLoginWithvalidCredentials" duration-ms="692" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-06T14:34:19Z" finished-at="2018-02-06T14:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="endTest" is-config="true" duration-ms="5990" started-at="2018-02-01T14:52:59Z" finished-at="2018-02-01T14:53:05Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.BullToken.TestClasses.LoginTest@77f99a05]" name="endTest" is-config="true" duration-ms="7176" started-at="2018-02-06T14:34:29Z" finished-at="2018-02-06T14:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

@@ -12,6 +12,9 @@ public class ICOBasicDetailModel {
 	public String FacebookUrl;
 	public String LinkdinUrl;
 	public String GithubUrl;
+	public String ContactEmail;
+	public String ContactMobile;
+	public String ContactAddress;
 	
 	
 }
