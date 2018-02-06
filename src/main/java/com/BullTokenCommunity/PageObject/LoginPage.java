@@ -63,10 +63,11 @@ public class LoginPage extends TestBase {
 		if((UserNameTextBox.isDisplayed()|| UserNameTextBox.isEnabled()) && (PasswordTextBox.isEnabled()|| PasswordTextBox.isDisplayed()))
 		{
 			UserNameTextBox.clear();
-			
 			UserNameTextBox.sendKeys(data.Invalidusername);
+			log("entered user name:-"+data.Invalidusername+" and object is "+UserNameTextBox.toString());
 			PasswordTextBox.clear();
 			PasswordTextBox.sendKeys(data.invalidpassword);
+			log("entered Password:-"+data.invalidpassword+" and object is "+PasswordTextBox.toString());
 			LoginButton.click();
 			waitForElement(driver,30,AuthenticationFailureMessage);
 			if(AuthenticationFailureMessage.isDisplayed()==true)
@@ -86,8 +87,10 @@ public class LoginPage extends TestBase {
 		{
 			UserNameTextBox.clear();
 			UserNameTextBox.sendKeys(data.UserName);
+			log("entered user name:-"+data.UserName+" and object is "+UserNameTextBox.toString());
 			PasswordTextBox.clear();
 			PasswordTextBox.sendKeys(data.Password);
+			log("entered Password:-"+data.Password+" and object is "+PasswordTextBox.toString());
 			LoginButton.click();
 		}
 	}

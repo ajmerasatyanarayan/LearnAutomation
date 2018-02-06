@@ -222,26 +222,41 @@ public class SubmitICOStep1 extends TestBase{
 	{
 		ClearAllFields();
 		ICONameTextBox.sendKeys(data.ICOName);
+		log("entered ICO Name:-"+data.ICOName);
 		ICOURLTextBox.sendKeys(data.ICOURL);
+		log("entered ICO URL:-"+data.ICOURL);
 		waitForElement(driver, 10, IcoCategoryDropdown);
 		Select ICOCateg=new Select(IcoCategoryDropdown);
 		waitForElement(driver, 30, IcoCategoryDropdown);
 		ICOCateg.selectByVisibleText(data.ICOcategory);
+		log("Selected ICO categegory:-"+data.ICOcategory);
 		waitForElement(driver, 30, CountryDropdown);
 		Select Country=new Select(CountryDropdown);
 		waitForElement(driver, 30, CountryDropdown);
 		Country.selectByVisibleText(data.ICOCountry);
+		log("Selected ICO Country:-"+data.ICOCountry);
 		StageOfDevelopmentInitialTestingRadioButton.click();
+		log("Selected Stage of development:-");
 		DescriptionTextArea.sendKeys(data.IcoDeescription);
+		log("Entered Description of ICO:-"+data.IcoDeescription);
 		CompanyNameTextBox.sendKeys(data.CompanyName);
+		log("Entered Company Name:-"+data.CompanyName);
 		LightPaperTextBox.sendKeys(data.LightpaperLink);
+		log("Entered LighPaper URL:-"+data.LightpaperLink);
 		WhitepaperTextBox.sendKeys(data.WhitepaperLink);
+		log("Entered Whitepaper URL:-"+data.WhitepaperLink);
 		FacebookTextbox.sendKeys(data.FacebookUrl);
+		log("Entered Facebook URL:-"+data.FacebookUrl);
 		LinkdinTextBox.sendKeys(data.LinkdinUrl);
+		log("Entered Linkdin URL:-"+data.LinkdinUrl);
 		GithubLink.sendKeys(data.GithubUrl);
+		log("Entered Github URL:-"+data.GithubUrl);
 		ContactEmailTextBox.sendKeys(data.ContactEmail);
+		log("Entered Contact email:-"+data.ContactEmail);
 		ContactNumberTextBox.sendKeys(data.ContactMobile);
+		log("Entered Contact number:-"+data.ContactMobile);
 		ContactAddressTextBox.sendKeys(data.ContactAddress);
+		log("Entered Contact address :-"+data.ContactAddress);
 		
 	}
 	public String GetICONameValidationMessage()
