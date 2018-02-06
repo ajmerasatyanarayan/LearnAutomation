@@ -209,6 +209,7 @@ public class SubmitICOStep1 extends TestBase{
 	
 	public void ClearAllFields()
 	{
+		
 		ICONameTextBox.clear();
 		ICOURLTextBox.clear();
 		DescriptionTextArea.clear();
@@ -216,6 +217,7 @@ public class SubmitICOStep1 extends TestBase{
 		WhitepaperTextBox.clear();
 		FacebookTextbox.clear();
 		LinkdinTextBox.clear();
+		log("Cleared all the fields");
 		
 	}
 	public void SubmitICOBasicDetails(ICOBasicDetailModel data)
