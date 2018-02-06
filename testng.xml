@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+  <test name="BullTokenCommunityTests">
+    <classes>
+      <class name="com.BullToken.TestClasses.LoginTest"/>
+       <class name="com.BullToken.TestClasses.ICOSubmissionTest"/>
+    </classes>
+  </test> <!-- BullTokenCommunityTests -->
+</suite> <!-- TestSuite -->

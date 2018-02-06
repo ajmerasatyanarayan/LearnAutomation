@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="BullTokenCommunityTests(failed)">
+    <classes>
+      <class name="com.BullToken.TestClasses.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.BullToken.TestClasses.LoginTest -->
+      <class name="com.BullToken.TestClasses.ICOSubmissionTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="SumbitBasicICODetailTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.BullToken.TestClasses.ICOSubmissionTest -->
+    </classes>
+  </test> <!-- BullTokenCommunityTests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
